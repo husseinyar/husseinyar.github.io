@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+    <div class="ListOftransport" style="display: block;">
+     
+    <table class="seachPlatsdTable">
+        <thead class="seachPlatsTbaleHead">
+            <tr class="seachPlatsTableHeaderRow">
+               
+              <th>   <input list="stations" class="seachPlats" onkeyup="StationNamesForList(stationInput)" type="text" id="stationInput" name="station" placeholder="Hållplats">
+                <datalist id="stations"></datalist> </th> 
+                
+                <th > 
+                    <label  class="Gångväg1" for="radioBtn" id="radioLabel">Gångväg</label>
+                    <input class="Gångväg" type="checkbox" id="radioBtn" onclick="ChangeTime()" value="Gångväg">
+                     
+                     </th>
+              <th> <button class="sok" type="button" id="searchBtn" onclick="GetStationID(stationInput)" value="Submit form">
+                <label id="searchBtn-Text">Sök</label>
+            </button></th>
+          <br>
+         
+               </tr>
+           
+
+        </thead>
+    <table class="scoreboardTable">
+        <thead class="scorebordTbaleHead">
+            <tr class="scoreboardTableHeaderRow">    
+                <th>Symbol</th>
+                <th>stationName</th>
+                <th> line </th>
+                <th>Tid</th>
+            </tr>
+           
+
+        </thead>
+
+        <div class="scoreboardTable-Body" id="hello">   </div>
+          
+       
+            <div class="transport" id="myary">
+            <td><div id="symbol"></div></td>
+            <td><div id="first"></div></td>
+            <td><div id="second"></div></td>
+            <td><div id="third"></div></td>
+           
+        </div>
+    </table>
+
+ <script src="jav.js">
+
+
+ </script>
+
+</body>
+</html>

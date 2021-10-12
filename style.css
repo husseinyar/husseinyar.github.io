@@ -1,0 +1,104 @@
+.scoreboardTable {
+    padding: 0;
+    margin: auto;
+    border-collapse: separate;
+    width: 80%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: green;
+
+    }
+
+
+    .seach{
+        color: darkorange;
+        font-weight: bold;
+        height: 50px;
+        }
+    .scoreboardTableHeaderRow {
+    color: darkorange;
+    font-weight: bold;
+    height: 50px;
+    }
+    .scoreboardTableBodyRow:nth-child(odd){background-color: rgba(128, 128, 128, 0.050);}
+    #latestUserScore {
+    background-color: crimson;
+    }
+    .scoreboardTableBodyRow:hover{
+    background-color: darkorange;
+    }
+    .scoreboardTable tr td {
+    height: 25px;
+    }
+
+    .scoreboardTable-Body{
+
+
+        background-color: aqua;
+        color:black;
+        width: 80vh;
+        border: black;
+    }
+
+    .seachPlatsdTable{
+
+        position: relative;
+         padding: 0;
+         margin: auto;
+         border-collapse: separate;
+         width: 80%;
+         text-align: center;
+         color: whitesmoke;
+         align-items: center;
+          height: 10rem;
+          background-color: royalblue;
+          border-radius: 20px;
+         }
+         .seachPlats{
+            position: relative;
+              width: 50%;
+              padding-top: 15px;
+              text-align: center;
+              border-radius: 20px;
+              left: 10%;
+           
+          }
+      
+          .sok{
+              position: relative;
+           width: 90%;
+           border-radius: 20px;
+         
+           right: 80%;
+           height: 2rem;
+         
+          }
+          .transport{
+              position: relative;
+            left: 10%;
+            background-color: green;
+            width: 80%;
+            color: white;
+
+          }
+          .Gångväg1{
+         position: relative;
+        
+         border-radius: 20px;
+       
+         right: 50%;
+         height: 2rem;
+         margin-left: 5px;
+       
+          }
+          .Gångväg{
+            position: relative;
+            width: 50%;
+            border-radius: 20px;
+             
+            right: 70%;
+            height: 2rem;
+            margin-left: 5px;
+            border-top-left-radius: 2px;
+             }
+      
